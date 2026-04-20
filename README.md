@@ -1,6 +1,3 @@
-
-# fraudlens1
-=======
 # 🔐 Fraudlens.ai – AI Fraud Detection System
 
 Fraudlens.ai is a machine learning-powered web application that detects fraudulent financial transactions using real-world data. It provides an interactive dashboard with analytics, visualizations, and real-time predictions.
@@ -31,7 +28,7 @@ Fraudlens.ai is a machine learning-powered web application that detects fraudule
 
 ## 📂 Project Structure
 
-```
+```id="wqk8r2"
 fraud-app/
 │── assets/
 │   ├── login.png
@@ -40,8 +37,6 @@ fraud-app/
 │   ├── bar.png
 │── app.py
 │── train.py
-│── model.pkl
-│── creditcard.csv
 │── requirements.txt
 │── README.md
 ```
@@ -50,38 +45,51 @@ fraud-app/
 
 ## 📊 Dataset
 
-* Credit Card Fraud Detection Dataset (Kaggle)
-* Highly imbalanced real-world transaction data
+This project uses the **Credit Card Fraud Detection Dataset** from Kaggle.
+
+👉 Download it here:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+⚠️ Note:
+
+* The dataset is **not included in this repository** due to GitHub file size limits.
+* Place the file `creditcard.csv` in the project root before running the app.
 
 ---
 
 ## ⚙️ Installation
 
-```bash
-git clone https://github.com/your-username/fraudlens-ai.git
-cd fraudlens-ai
+```bash id="m8h4k2"
+git clone https://github.com/deepakuppala/fraudlens1.git
+cd fraudlens1
 pip install -r requirements.txt
 ```
 
 ---
 
-## 🧠 Train Model
+## 🧠 Train the Model
 
-```bash
+```bash id="b8z4dp"
 python train.py
+```
+
+This will generate:
+
+```id="jv6o3m"
+model.pkl
 ```
 
 ---
 
-## ▶️ Run App
+## ▶️ Run the Application
 
-```bash
+```bash id="1l6s2z"
 streamlit run app.py
 ```
 
 Open in browser:
 
-```
+```id="b4zq9d"
 http://localhost:8501
 ```
 
@@ -89,28 +97,28 @@ http://localhost:8501
 
 ## 🔑 Login Credentials
 
-```
-Username: admin
+```id="2lt9dk"
+Username: admin  
 Password: 1234
 ```
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## 🔐 Login Page
+### 🔐 Login Page
 
 ![Login](assets/login.png)
 
-## 🧪 Demo Prediction
+### 🧪 Demo Prediction
 
 ![Demo](assets/demo.png)
 
-## 📊 Dashboard Graph
+### 📊 Dashboard Graph
 
 ![Graph](assets/graph.png)
 
-## 📈 Bar Chart
+### 📈 Bar Chart
 
 ![Bar](assets/bar.png)
 
@@ -126,27 +134,22 @@ Password: 1234
 
 ---
 
-## ⚠️ Note
+## ⚠️ Notes
 
 * Fraud data is highly imbalanced (~0.2%)
 * Demo mode uses balanced sampling for better visualization
 * Uploaded CSV must match dataset structure
+* Large files like dataset and model are excluded from the repository
 
 ---
 
 ## 🚀 Future Improvements
 
 * 🎯 Real-time API integration
-* 📊 Confusion Matrix
-* 🎨 Advanced UI
-* ☁️ Deployment
-
----
-
-## 👨‍💻 Author
-
-**Deepak**
-AIML Student | Aspiring Software Developer
+* 📊 Confusion Matrix & Advanced Metrics
+* 🎨 Enhanced UI/UX
+* 🔐 Secure authentication system
+* ☁️ Cloud deployment
 
 ---
 
