@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # fraudlens1
 =======
 # 🔐 Fraudlens.ai – AI Fraud Detection System
@@ -153,4 +153,3 @@ AIML Student | Aspiring Software Developer
 ## ⭐ Project Tagline
 
 **Fraudlens.ai – See fraud before it happens**
->>>>>>> 34eccdc (Initial commit - Fraudlens.ai project)
